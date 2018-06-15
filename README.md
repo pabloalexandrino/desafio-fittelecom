@@ -21,7 +21,11 @@ Na pasta control, está a classe para manutenção da API (create, read, update,
 # Implantação
 
 1 - Crie um banco de dados: fittelecom
+
 2 - Importe o arquivo fittelecom.sql
+
 3 - Certifique-se que o servidor esteja com mod_rewrite = ON
+
 4 - Configure usuario e senha no arquivo model/conexao.model.php
+
 5 - Acesse a URL =D

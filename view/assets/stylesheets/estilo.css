@@ -1,0 +1,28 @@
+h1 {
+  font-size:22px;
+  color:#666666;
+  text-transform:uppercase;
+}
+h2 {
+  color:#FFF;
+  font-weight:bolder;
+  font-size:10em;
+  padding:0;
+}
+h3 {
+  color:#FFF;
+  font-weight:bolder;
+  font-size:4em;
+  margin-top:-.75em;
+  display:block;
+}
+.descricao {
+  color:#eee;
+  font-size:.8em;
+}
+.valor {
+  display:block;
+  margin-top:10px;
+  font-size:3em;
+  font-weight:bolder;
+}

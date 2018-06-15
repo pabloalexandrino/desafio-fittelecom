@@ -31,10 +31,10 @@
   <?php 
     $u = isset($_GET['path']) ? $_GET['path'] : 'home';
     $u = explode('/',$u)[0];
-    if(file_exists($path.'view/'.$u.'.php'))
-      include $path.'view/'.$u.'.php';
+    if(file_exists('view/'.$u.'.php'))
+      include 'view/'.$u.'.php';
     else
-      include $path.'view/home.php'; // ou 404
+      include 'view/home.php'; // ou 404
   ?>
 
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha256-3edrmyuQ0w65f8gfBsqowzjJe2iM6n0nKciPUp8y+7E=" crossorigin="anonymous">
